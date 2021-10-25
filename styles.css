@@ -1,0 +1,82 @@
+body
+{
+    background-color: #282828;
+    font-family: consolasForAll, monospace;
+    color: #ddd;
+}
+
+@font-face
+{
+    font-family: consolasForAll;
+    src: url(consolas.ttf);
+}
+
+a
+{
+    color: #f39c12;
+}
+
+header
+{
+    position: relative;
+    top: -25px;
+    width: 100%;
+    height: 200px;
+    text-align:center;
+    display: table;
+
+    background-color: #537895;
+    background-image: url("images/background.png");
+}
+
+header h1
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#projects .project
+{
+    width: 23%;
+    margin: 1%;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+#projects .project img
+{
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+#projects .project #title
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -10%);
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#projects .project #desc
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 40%);
+    color: #eee;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#project img
+{
+    width: 100%;
+}
+
+#project
+{
+    width: 33%;
+}
